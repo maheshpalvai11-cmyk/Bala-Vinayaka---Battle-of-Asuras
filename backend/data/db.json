@@ -1,0 +1,193 @@
+{
+  "profile": {
+    "name": "Bala Player",
+    "level": 1,
+    "xp": 0,
+    "coins": 500,
+    "divineEnergy": 100,
+    "victories": 0,
+    "asurasDefeated": 0,
+    "levelsCompleted": 0,
+    "currentWeapon": "Divine Axe",
+    "currentSkin": "Classic Bala Vinayaka"
+  },
+  "settings": {
+    "sound": true,
+    "music": true
+  },
+  "weapons": [
+    {
+      "id": 1,
+      "name": "Divine Axe",
+      "damage": 120,
+      "speed": "Medium",
+      "range": "Medium",
+      "unlocked": true,
+      "requiredLevel": 1
+    },
+    {
+      "id": 2,
+      "name": "Sacred Mace",
+      "damage": 150,
+      "speed": "Slow",
+      "range": "Short",
+      "unlocked": false,
+      "requiredLevel": 2
+    },
+    {
+      "id": 3,
+      "name": "Divine Vajra",
+      "damage": 180,
+      "speed": "Medium",
+      "range": "Long",
+      "unlocked": false,
+      "requiredLevel": 4
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "Divine Strike",
+      "damage": 220,
+      "energy": 20,
+      "cooldown": 5,
+      "unlocked": true,
+      "requiredLevel": 1
+    },
+    {
+      "id": 2,
+      "name": "Divine Shield",
+      "damage": 0,
+      "energy": 25,
+      "cooldown": 8,
+      "unlocked": false,
+      "requiredLevel": 2
+    },
+    {
+      "id": 3,
+      "name": "Ganesha Dash",
+      "damage": 100,
+      "energy": 20,
+      "cooldown": 6,
+      "unlocked": false,
+      "requiredLevel": 3
+    },
+    {
+      "id": 4,
+      "name": "Elephant Strength",
+      "damage": 300,
+      "energy": 35,
+      "cooldown": 10,
+      "unlocked": false,
+      "requiredLevel": 4
+    },
+    {
+      "id": 5,
+      "name": "Modak Power",
+      "damage": 0,
+      "energy": 15,
+      "cooldown": 12,
+      "unlocked": false,
+      "requiredLevel": 5
+    },
+    {
+      "id": 6,
+      "name": "Divine Ultimate",
+      "damage": 500,
+      "energy": 60,
+      "cooldown": 20,
+      "unlocked": false,
+      "requiredLevel": 5
+    }
+  ],
+  "skins": [
+    {
+      "id": 1,
+      "name": "Classic Bala Vinayaka",
+      "requiredLevel": 1,
+      "unlocked": true
+    },
+    {
+      "id": 2,
+      "name": "Warrior Bala",
+      "requiredLevel": 2,
+      "unlocked": false
+    },
+    {
+      "id": 3,
+      "name": "Royal Bala",
+      "requiredLevel": 3,
+      "unlocked": false
+    },
+    {
+      "id": 4,
+      "name": "Golden Bala",
+      "requiredLevel": 4,
+      "unlocked": false
+    },
+    {
+      "id": 5,
+      "name": "Festival Bala",
+      "requiredLevel": 5,
+      "unlocked": false
+    },
+    {
+      "id": 6,
+      "name": "Divine Bala",
+      "requiredLevel": 6,
+      "unlocked": false
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "name": "The First Asura",
+      "asura": "Forest Asura",
+      "hp": 800,
+      "damage": 70,
+      "difficulty": "Easy",
+      "xpReward": 250,
+      "coinReward": 500
+    },
+    {
+      "id": 2,
+      "name": "Rising Demon",
+      "asura": "Rising Asura",
+      "hp": 1100,
+      "damage": 90,
+      "difficulty": "Normal",
+      "xpReward": 400,
+      "coinReward": 700
+    },
+    {
+      "id": 3,
+      "name": "Fierce Guardian",
+      "asura": "Guardian Asura",
+      "hp": 1500,
+      "damage": 110,
+      "difficulty": "Hard",
+      "xpReward": 600,
+      "coinReward": 1000
+    },
+    {
+      "id": 4,
+      "name": "Ancient Warrior",
+      "asura": "Warrior Asura",
+      "hp": 1900,
+      "damage": 135,
+      "difficulty": "Very Hard",
+      "xpReward": 850,
+      "coinReward": 1400
+    },
+    {
+      "id": 5,
+      "name": "Asura Boss",
+      "asura": "Mahabala Asura",
+      "hp": 2500,
+      "damage": 170,
+      "difficulty": "Boss",
+      "xpReward": 1200,
+      "coinReward": 2000
+    }
+  ]
+}
